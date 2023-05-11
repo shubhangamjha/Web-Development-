@@ -1,0 +1,12 @@
+#header {
+  text-align: center;
+  font-size: 2em;
+  padding: 20px;
+}
+
+#myBtn {
+  padding: 10px 20px;
+  font-size: 1.5em;
+  margin: 20px auto;
+  display: block;
+}
