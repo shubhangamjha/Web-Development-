@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Unit Convertor</title>
+  <link rel="stylesheet" type="text/css" href="converter.css">
+</head>
+<body>
+   <form id="conversion-form">
+    <label for="value">Value:</label>
+    <input type="text" id="value" name="value">
+    <br>
+    <label for="from-unit">From Unit:</label>
+    <select id="from-unit" name="from-unit">
+      <option value="inches">Inches</option>
+      <option value="feet">Feet</option>
+      <option value="yards">Yards</option>
+    </select>
+    <br>
+    <label for="to-unit">To Unit:</label>
+    <select id="to-unit" name="to-unit">
+      <option value="inches">Inches</option>
+      <option value="feet">Feet</option>
+      <option value="yards">Yards</option>
+    </select>
+    <br>
+    <button type="submit">Convert</button>
+  </form>
+  <div id="result"></div>
+  <script type="text/javascript" src="convertor.js"></script>
+
+</body>
+</html>
